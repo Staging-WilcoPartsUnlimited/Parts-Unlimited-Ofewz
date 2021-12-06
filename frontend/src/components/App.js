@@ -22,6 +22,8 @@ const mapStateToProps = state => {
     currentUser: state.common.currentUser,
     redirectTo: state.common.redirectTo
   };
+  
+  
 };
 
 const mapDispatchToProps = dispatch => ({
